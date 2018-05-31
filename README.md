@@ -5,7 +5,9 @@ It's a mini script for calculating the bounding box of a STL model. The output i
 
 ## What is bounding box
 Like the following image showed:
+
 ![bounding-box-sample](https://raw.githubusercontent.com/alexwoo1900/stldetective/master/docs/assets/bounding-box-sample.png)
+
 If this picture involved copyright issues, please contact me.
 
 ## How to use it

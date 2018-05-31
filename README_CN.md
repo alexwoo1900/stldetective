@@ -5,7 +5,9 @@ README: [ENGLISH](https://github.com/alexwoo1900/stldetective/blob/master/README
 
 ## 什么是包围盒
 如同下图所示：
+
 ![bounding-box-sample](https://raw.githubusercontent.com/alexwoo1900/stldetective/master/docs/assets/bounding-box-sample.png)
+
 假如图片涉及到版权问题，请立即联系我。
 
 ## 如何使用这个小脚本
