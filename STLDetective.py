@@ -81,7 +81,7 @@ class STLDetective:
         self._vertices[self._vertex_count, 2] = z
         self._vertex_count += 1
 
-    def getModelParameters(self):
+    def getModelBBox(self):
         self._newVertices = self._immutableNDArray(self._vertices[0: self._vertex_count])
         if self._newVertices is None:
             return None
@@ -175,4 +175,4 @@ if __name__ == "__main__":
     scriptName, stlFullPath = argv
     detective = STLDetective()
     detective.load_file(stlFullPath)
-    detective.getModelParameters()
+    detective.getModelBBox()
