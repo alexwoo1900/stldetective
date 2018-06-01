@@ -11,8 +11,15 @@ Like the following image showed:
 If this picture involved copyright issues, please contact me.
 
 ## How to use it
-After compiling this script, you can enter
+If you want to use the code, the following demo will be helpful.
+```python
+detective = STLDetective()
+detective.load_file(stlFullPath)
+detective.getModelBBox() # print 20.2 50.0 100.5
+```
+Or you can modify the return of function getModelBBox to be compatible with your own program.
+
+If you want the tool can be executed by other processors, after compiling this script, you can call it in command line
 ```bash
 STLDetective.exe cat.stl
 ```
-in your command line
